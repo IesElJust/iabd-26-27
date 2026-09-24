@@ -1,0 +1,70 @@
+[project]
+site_name = "BiciTierra Market"
+site_description = "Document de treball, píndoles i materials pràctics del projecte d’IABD"
+site_url = "https://ieseljust.github.io/iabd-26-27/"
+docs_dir = "web_docs"
+site_dir = "site"
+use_directory_urls = false
+extra_css = ["assets-projecte/projecte.css"]
+nav = [
+  { "Document de treball" = "index.md" },
+  { "Descàrregues" = "DESCARREGUES.md" },
+  { "Materials pràctics" = [
+    { "Dades del projecte" = "MATERIALS_PRACTICS/dades/README.md" },
+    { "Diccionari de dades" = "MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md" },
+    { "Notebooks per setmanes" = "MATERIALS_PRACTICS/notebooks/README.md" },
+    { "Dashboard" = "MATERIALS_PRACTICS/dashboards/README.md" },
+    { "Briefing de Power BI" = "MATERIALS_PRACTICS/dashboards/01_briefing_powerbi.md" },
+    { "KPIs i visuals" = "MATERIALS_PRACTICS/dashboards/02_kpis_i_visuals.md" },
+    { "Model de taules" = "MATERIALS_PRACTICS/dashboards/03_model_taules.md" }
+  ] },
+  { "Píndoles breus" = [
+    { "Python i entorns" = "PINDOLES/python-i-entorns.md" },
+    { "Jupyter" = "PINDOLES/jupyter-notebooks.md" },
+    { "Python per a dades" = "PINDOLES/python-per-a-dades-i.md" },
+    { "EDA i qualitat" = "PINDOLES/eda-i-qualitat-de-dades.md" },
+    { "Visualització" = "PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md" },
+    { "Scikit-learn" = "PINDOLES/scikit-learn-intro.md" },
+    { "Validació de models" = "PINDOLES/validacio-de-models.md" },
+    { "Clustering" = "PINDOLES/clustering-i-segmentacio.md" },
+    { "SHAP i LIME" = "PINDOLES/xai-shap-lime.md" },
+    { "Power BI" = "PINDOLES/dashboards-i-powerbi.md" },
+    { "MLflow" = "PINDOLES/mlflow-intro.md" },
+  ] },
+  { "Píndoles ampliades" = [
+    { "Índex i recorreguts" = "PINDOLES_AMPLIADES/docs/index.md" },
+    { "Python i entorns" = "PINDOLES_AMPLIADES/docs/python-i-entorns/index.md" },
+    { "Jupyter" = "PINDOLES_AMPLIADES/docs/jupyter-notebooks/index.md" },
+    { "Python per a dades" = "PINDOLES_AMPLIADES/docs/python-per-a-dades-i/index.md" },
+    { "EDA i qualitat" = "PINDOLES_AMPLIADES/docs/eda-i-qualitat-de-dades/index.md" },
+    { "Visualització" = "PINDOLES_AMPLIADES/docs/visualitzacio-amb-matplotlib-i-seaborn/index.md" },
+    { "Scikit-learn" = "PINDOLES_AMPLIADES/docs/scikit-learn-intro/index.md" },
+    { "Validació de models" = "PINDOLES_AMPLIADES/docs/validacio-de-models/index.md" },
+    { "Clustering" = "PINDOLES_AMPLIADES/docs/clustering-i-segmentacio/index.md" },
+    { "SHAP i LIME" = "PINDOLES_AMPLIADES/docs/xai-shap-lime/index.md" },
+    { "Power BI" = "PINDOLES_AMPLIADES/docs/dashboards-i-powerbi/index.md" },
+    { "MLflow" = "PINDOLES_AMPLIADES/docs/mlflow-intro/index.md" },
+  ] },
+ ]
+
+[project.theme]
+language = "ca"
+features = ["navigation.tabs", "navigation.sections", "navigation.top", "search.highlight", "content.code.copy", "toc.follow"]
+
+[project.theme.palette]
+scheme = "default"
+primary = "teal"
+accent = "orange"
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+md_in_html = {}
+tables = {}
+pymdownx.details = {}
+pymdownx.highlight = { anchor_linenums = true }
+pymdownx.tasklist = { custom_checkbox = true }
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+toc = { permalink = true }

@@ -1,0 +1,8 @@
+# Generats exclusivament per al site
+/web_docs/
+/site/
+/.cache/
+/.venv-site/
+/__pycache__/
+requirements-site.txt
+site_projecte.py
