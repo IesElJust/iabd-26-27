@@ -1,4 +1,4 @@
-# BiciTierra Market · Document de treball
+# BiciTerra Market · Document de treball
 
 **Projecte inicial del curs · Proposta de sis setmanes.** Este és el document que heu de seguir. Les píndoles i els fitxers pràctics estan a banda i s’enllacen en la setmana en què els necessiteu. El professorat concretarà les dates segons el calendari i el nivell del grup.
 
