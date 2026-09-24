@@ -4,5 +4,3 @@
 /.cache/
 /.venv-site/
 /__pycache__/
-requirements-site.txt
-site_projecte.py
