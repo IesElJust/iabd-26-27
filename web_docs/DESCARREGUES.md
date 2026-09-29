@@ -1,10 +1,10 @@
-# Descàrregues del projecte
+<!-- # Descàrregues del projecte
 
 Els enllaços guarden el fitxer al teu ordinador. Els notebooks s’obrin amb Jupyter després de descarregar-los; els programes Python s’executen en l’entorn indicat per cada píndola.
 
 [Descarrega tots els materials pràctics](materials-practics.zip){ download="materials-practics.zip" .md-button .md-button--primary }
 
-Descomprimix el paquet conservant les carpetes: els notebooks busquen les dades en `../dades/`. Respecta els apartats de cada setmana i la reserva de la prova final descrita en el [document de treball](index.md).
+Descomprimix el paquet conservant les carpetes: els notebooks busquen les dades en `../dades/`. Respecta els apartats de cada setmana i la reserva de la prova final descrita en el [document de treball](index.md). -->
 
 ## Dades CSV
 

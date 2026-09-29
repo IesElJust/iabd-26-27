@@ -449,8 +449,3 @@ Glossari de consulta ràpida amb el vocabulari tècnic que apareix al llarg del 
 | [Desenvolupament] | Python, Entorn virtual, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn, PyTorch, OpenCV, Notebook, API, REST, GraphQL, FastAPI, Flask, Streamlit, Gradio, UI, Git, Repositori, Arquitectura, Integració de serveis, Integració vertical, Vertical funcional, MVP, Deute tècnic, Autenticació, Web scraping |
 | [Seguretat] | RGPD, Autenticació |
 | [Context] Expressions de negoci | Preguntes de negoci, Objectius de direcció, Recomanacions accionables, Decisió de negoci, Lectura executiva/comercial, Bottleneck (coll de botella), Cua de camions, Triatge |
-
-
-## Per aprofundir
-
-[Obri la píndola ampliada, amb pràctiques i exercicis](../PINDOLES_AMPLIADES/docs/glossari_terms/index.md).
