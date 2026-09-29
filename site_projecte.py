@@ -54,6 +54,7 @@ def prepare():
 
 [Descàrregues](DESCARREGUES.md){ .md-button }
 [Píndoles ampliades](PINDOLES_AMPLIADES/docs/index.md){ .md-button }
+[Glossari](glossari_terms.md){ .md-button }
 
 '''
     (DOCS / 'index.md').write_text(markdown(first + shortcuts + rest), encoding='utf-8')
