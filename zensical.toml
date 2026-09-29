@@ -45,6 +45,7 @@ nav = [
     { "Power BI" = "PINDOLES_AMPLIADES/docs/dashboards-i-powerbi/index.md" },
     { "MLflow" = "PINDOLES_AMPLIADES/docs/mlflow-intro/index.md" },
   ] },
+   { "Glossari" = "glossari_terms.md" },
  ]
 
 [project.theme]
