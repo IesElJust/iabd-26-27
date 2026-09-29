@@ -31,6 +31,9 @@ def prepare():
     if DOCS.exists():
         shutil.rmtree(DOCS)  # Només la carpeta generada amb nom fix.
     DOCS.mkdir()
+    for name in ['glossari_terms.md']:
+        text = (ROOT / name).read.text(encoding='utf-8')
+        (DOCS / name).write.text(markdown(text),encoding='utf-8')
     for folder in ['MATERIALS_PRACTICS', 'PINDOLES', 'PINDOLES_AMPLIADES']:
         for source in sorted((ROOT / folder).rglob('*')):
             relative = source.relative_to(ROOT)
@@ -54,7 +57,6 @@ def prepare():
 
 [Descàrregues](DESCARREGUES.md){ .md-button }
 [Píndoles ampliades](PINDOLES_AMPLIADES/docs/index.md){ .md-button }
-[Glossari](glossari_terms.md){ .md-button }
 
 '''
     (DOCS / 'index.md').write_text(markdown(first + shortcuts + rest), encoding='utf-8')
