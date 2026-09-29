@@ -26,7 +26,7 @@ jobs:
       - name: Instal·lar Zensical
         run: python -m pip install -r requirements-site.txt
       - name: Construir i comprovar enllaços i descàrregues
-        run: python site_projecte.py build
+        run: zensical build
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site

@@ -1,5 +1,5 @@
 # Generats exclusivament per al site
-/web_docs/
+# /web_docs/
 /site/
 /.cache/
 /.venv-site/
