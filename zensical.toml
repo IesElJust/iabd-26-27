@@ -9,6 +9,7 @@ extra_css = ["assets-projecte/projecte.css"]
 nav = [
   { "Document de treball" = "index.md" },
   { "Descàrregues" = "DESCARREGUES.md" },
+  { "Glossari" = "glossari_terms.md" },
   { "Materials pràctics" = [
     { "Dades del projecte" = "MATERIALS_PRACTICS/dades/README.md" },
     { "Diccionari de dades" = "MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md" },
