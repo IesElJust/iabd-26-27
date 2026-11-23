@@ -1,0 +1,43 @@
+ticket_id,canal,client_sector,text_ticket,urgencia_reportada,departament_sospitat,estat
+T001,web,retail,No puc entrar al portal i em diu contrasenya incorrecta tot i haver-la canviat ahir,alta,identitat,obert
+T002,email,industria,La VPN dona error de certificat quan intentem connectar des de casa,alta,xarxes,obert
+T003,web,educacio,El correu d'una usuaria rebota i diu que la quota esta plena,mitjana,correu,obert
+T004,email,salut,L'aplicacio de tickets va lenta a primera hora pero despres millora,baixa,aplicacions,obert
+T005,web,logistica,Ens han bloquejat el compte despres de diversos intents de login,alta,identitat,tancat
+T006,email,retail,No sabem com configurar l'IMAP al mobil nou,baixa,correu,obert
+T007,web,industria,La MFA no envia el codi al telefon d'un usuari nou,alta,identitat,obert
+T008,email,administracio,Despres d'actualitzar el client VPN no arranca en dos equips,mitjana,xarxes,obert
+T009,web,educacio,Necessitem recuperar un correu eliminat fa dues setmanes,mitjana,correu,obert
+T010,email,salut,L'usuaria diu que no veu un modul de l'aplicacio despres del canvi de permisos,alta,aplicacions,obert
+T011,web,logistica,Quan intentem enviar adjunts grans el correu no ix,mitjana,correu,obert
+T012,email,retail,Error 403 en accedir al portal de clients des de fora de l'oficina,alta,xarxes,obert
+T013,web,retail,No em deixa entrar i posa user blocked. Ahir vaig provar massa vegades.,alta,identitat,obert
+T014,email,educacio,Des de casa la vpn va be a uns equips i a altres ix error de certificat,alta,xarxes,obert
+T015,web,industria,No trobe els correus enviats des del mobil nou. Potser esta en POP i no IMAP,baixa,correu,obert
+T016,email,salut,L'aplicacio carrega pero el panell d'informes queda en blanc despres de canviar permisos,alta,aplicacions,obert
+T017,web,administracio,quota plena quota plena quota plena i no puc rebre mes correu,mitjana,correu,obert
+T018,email,retail,"403 portal clients / des de l'oficina entra, fora no",alta,xarxes,obert
+T019,web,logistica,El codi MFA arriba tard o no arriba,alta,identitat,obert
+T020,email,industria,No arranca el client vpn 4.2 despres de l'update,mitjana,xarxes,pending
+T021,web,salut,No puc enviar adjunts de 25MB i diu time out,baixa,correu,obert
+T022,email,educacio,Error al mòdul de factures; no tinc visibilitat despres del rol nou,alta,aplicacions,obert
+T023,web,retail,"Contrasenya canviada, pero continua dient invalid credentials",alta,identitat,obert
+T024,email,retail,"Contrasenya canviada, pero continua dient invalid credentials",alta,identitat,obert
+T025,web,educacio,El professorat no rep el codi MFA per SMS desde ahir al mati,alta,identitat,obert
+T026,email,industria,El certificat de la VPN caduca aviat i ens avisa el navegador,mitjana,xarxes,obert
+T027,web,salut,Les infermeres no poden vore l'historic de pacients al modul nou,alta,aplicacions,obert
+T028,email,logistica,Els correus amb albarans adjunts arriben sense l'adjunt al desti,mitjana,correu,obert
+T029,web,administracio,He canviat la contrasenya tres vegades i el portal continua rebutjant-la,alta,identitat,obert
+T030,email,retail,La connexio VPN es talla cada cinc minuts desde dilluns,alta,xarxes,obert
+T031,web,educacio,La bústia compartida del departament esta plena i rebota els correus,mitjana,correu,obert
+T032,email,salut,El panell d'estadistiques de l'aplicacio no carrega les dades d'ahir,mitjana,aplicacions,obert
+T033,web,industria,Error de certificat al portal intern desde els equips de produccio,alta,xarxes,pending
+T034,email,logistica,El codi MFA arriba al telefon antic d'un treballador que ja no esta,alta,identitat,obert
+T035,web,retail,El Outlook del PC nou no baixa els correus pero al mobil si que arriben,baixa,correu,obert
+T036,email,administracio,Despres del canvi de rol no puc exportar els informes mensuals,mitjana,aplicacions,obert
+T037,web,educacio,Compte bloquejat per intents fallits pero ningú ha intentat entrar,alta,identitat,obert
+T038,email,industria,La VPN dona error 809 desde la xarxa del taller,alta,xarxes,obert
+T039,web,salut,Rebo avisos de quota plena cada mati encara que he esborrat correus,mitjana,correu,obert
+T040,email,retail,L'aplicacio de tancament de caixa es queda penjada al final del dia,mitjana,aplicacions,obert
+T041,web,logistica,El login del portal demana MFA a un usuari que no el tenia configurat,mitjana,identitat,obert
+T042,email,educacio,Despres de l'ultima actualitzacio l'aplicacio va lenta i es tanca sola,alta,aplicacions,obert

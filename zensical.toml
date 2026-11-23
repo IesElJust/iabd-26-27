@@ -1,52 +1,96 @@
 [project]
-site_name = "BiciTierra Market"
-site_description = "Document de treball, píndoles i materials pràctics del projecte d’IABD"
+site_name = "Projectes d’IA i Big Data · Curs 2026–2027"
+site_description = "Documents de treball, píndoles i materials pràctics dels projectes del curs d’IA i Big Data"
 site_url = "https://ieseljust.github.io/iabd-26-27/"
 docs_dir = "web_docs"
 site_dir = "site"
 use_directory_urls = false
 extra_css = ["assets-projecte/projecte.css"]
+
 nav = [
-  { "Document de treball" = "index.md" },
-  { "Descàrregues" = "DESCARREGUES.md" },
-  { "Materials pràctics" = [
-    { "Dades del projecte" = "MATERIALS_PRACTICS/dades/README.md" },
-    { "Diccionari de dades" = "MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md" },
-    { "Notebooks per setmanes" = "MATERIALS_PRACTICS/notebooks/README.md" },
-    { "Dashboard" = "MATERIALS_PRACTICS/dashboards/README.md" },
-    { "Briefing de Power BI" = "MATERIALS_PRACTICS/dashboards/01_briefing_powerbi.md" },
-    { "KPIs i visuals" = "MATERIALS_PRACTICS/dashboards/02_kpis_i_visuals.md" },
-    { "Model de taules" = "MATERIALS_PRACTICS/dashboards/03_model_taules.md" }
+  { "Inici" = "index.md" },
+  { "BiciTierra Market" = [
+    { "Document de treball" = "bicitierra-market/document_de_treball.md" },
+    { "Descàrregues" = "bicitierra-market/DESCARREGUES.md" },
+    { "Materials pràctics" = [
+      { "Dades del projecte" = "bicitierra-market/MATERIALS_PRACTICS/dades/README.md" },
+      { "Diccionari de dades" = "bicitierra-market/MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md" },
+      { "Notebooks per setmanes" = "bicitierra-market/MATERIALS_PRACTICS/notebooks/README.md" },
+      { "Dashboard" = "bicitierra-market/MATERIALS_PRACTICS/dashboards/README.md" },
+      { "Briefing de Power BI" = "bicitierra-market/MATERIALS_PRACTICS/dashboards/01_briefing_powerbi.md" },
+      { "KPIs i visuals" = "bicitierra-market/MATERIALS_PRACTICS/dashboards/02_kpis_i_visuals.md" },
+      { "Model de taules" = "bicitierra-market/MATERIALS_PRACTICS/dashboards/03_model_taules.md" },
+    ] },
+    { "Píndoles breus" = [
+      { "Python i entorns" = "bicitierra-market/PINDOLES/python-i-entorns.md" },
+      { "Jupyter" = "bicitierra-market/PINDOLES/jupyter-notebooks.md" },
+      { "Python per a dades" = "bicitierra-market/PINDOLES/python-per-a-dades-i.md" },
+      { "EDA i qualitat" = "bicitierra-market/PINDOLES/eda-i-qualitat-de-dades.md" },
+      { "Visualització" = "bicitierra-market/PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md" },
+      { "Scikit-learn" = "bicitierra-market/PINDOLES/scikit-learn-intro.md" },
+      { "Validació de models" = "bicitierra-market/PINDOLES/validacio-de-models.md" },
+      { "Clustering" = "bicitierra-market/PINDOLES/clustering-i-segmentacio.md" },
+      { "SHAP i LIME" = "bicitierra-market/PINDOLES/xai-shap-lime.md" },
+      { "Power BI" = "bicitierra-market/PINDOLES/dashboards-i-powerbi.md" },
+      { "MLflow" = "bicitierra-market/PINDOLES/mlflow-intro.md" },
+    ] },
+    { "Píndoles ampliades" = [
+      { "Índex i recorreguts" = "bicitierra-market/PINDOLES_AMPLIADES/docs/index.md" },
+      { "Python i entorns" = "bicitierra-market/PINDOLES_AMPLIADES/docs/python-i-entorns/index.md" },
+      { "Jupyter" = "bicitierra-market/PINDOLES_AMPLIADES/docs/jupyter-notebooks/index.md" },
+      { "Python per a dades" = "bicitierra-market/PINDOLES_AMPLIADES/docs/python-per-a-dades-i/index.md" },
+      { "EDA i qualitat" = "bicitierra-market/PINDOLES_AMPLIADES/docs/eda-i-qualitat-de-dades/index.md" },
+      { "Visualització" = "bicitierra-market/PINDOLES_AMPLIADES/docs/visualitzacio-amb-matplotlib-i-seaborn/index.md" },
+      { "Scikit-learn" = "bicitierra-market/PINDOLES_AMPLIADES/docs/scikit-learn-intro/index.md" },
+      { "Validació de models" = "bicitierra-market/PINDOLES_AMPLIADES/docs/validacio-de-models/index.md" },
+      { "Clustering" = "bicitierra-market/PINDOLES_AMPLIADES/docs/clustering-i-segmentacio/index.md" },
+      { "SHAP i LIME" = "bicitierra-market/PINDOLES_AMPLIADES/docs/xai-shap-lime/index.md" },
+      { "Power BI" = "bicitierra-market/PINDOLES_AMPLIADES/docs/dashboards-i-powerbi/index.md" },
+      { "MLflow" = "bicitierra-market/PINDOLES_AMPLIADES/docs/mlflow-intro/index.md" },
+    ] },
+    { "Glossari" = "bicitierra-market/glossari_terms.md" },
   ] },
-  { "Píndoles breus" = [
-    { "Python i entorns" = "PINDOLES/python-i-entorns.md" },
-    { "Jupyter" = "PINDOLES/jupyter-notebooks.md" },
-    { "Python per a dades" = "PINDOLES/python-per-a-dades-i.md" },
-    { "EDA i qualitat" = "PINDOLES/eda-i-qualitat-de-dades.md" },
-    { "Visualització" = "PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md" },
-    { "Scikit-learn" = "PINDOLES/scikit-learn-intro.md" },
-    { "Validació de models" = "PINDOLES/validacio-de-models.md" },
-    { "Clustering" = "PINDOLES/clustering-i-segmentacio.md" },
-    { "SHAP i LIME" = "PINDOLES/xai-shap-lime.md" },
-    { "Power BI" = "PINDOLES/dashboards-i-powerbi.md" },
-    { "MLflow" = "PINDOLES/mlflow-intro.md" },
+  { "València HelpDesk 360" = [
+    { "Document de treball" = "helpdesk-360/document_de_treball.md" },
+    { "Materials pràctics" = [
+      { "Dades del projecte" = "helpdesk-360/MATERIALS_PRACTICS/dades/README.md" },
+      { "Diccionari de dades" = "helpdesk-360/MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md" },
+      { "Materials de l’empresa" = [
+        { "Briefing de l’empresa" = "helpdesk-360/MATERIALS_PRACTICS/empresa/01_briefing_empresa.md" },
+        { "Política de contrasenyes" = "helpdesk-360/MATERIALS_PRACTICS/empresa/02_politica_contrasenyes.md" },
+        { "Manual de VPN" = "helpdesk-360/MATERIALS_PRACTICS/empresa/03_manual_vpn.md" },
+        { "Procediment de correu" = "helpdesk-360/MATERIALS_PRACTICS/empresa/04_procediment_correu.md" },
+      ] },
+      { "Notebooks" = [
+        { "Guia dels notebooks" = "helpdesk-360/MATERIALS_PRACTICS/notebooks/README.md" },
+        { "Comparació de models" = "helpdesk-360/MATERIALS_PRACTICS/notebooks/03_comparacio_models.md" },
+        { "Consulta i integració" = "helpdesk-360/MATERIALS_PRACTICS/notebooks/04_consulta_i_integracio.md" },
+      ] },
+    ] },
+    { "Píndoles breus" = [
+      { "Índex de píndoles breus" = "helpdesk-360/PINDOLES/README.md" },
+      { "Python i entorns" = "helpdesk-360/PINDOLES/python-i-entorns.md" },
+      { "Jupyter" = "helpdesk-360/PINDOLES/jupyter-notebooks.md" },
+      { "Python per a dades" = "helpdesk-360/PINDOLES/python-per-a-dades-i.md" },
+      { "EDA i qualitat" = "helpdesk-360/PINDOLES/eda-i-qualitat-de-dades.md" },
+      { "Scikit-learn" = "helpdesk-360/PINDOLES/scikit-learn-intro.md" },
+      { "Validació de models" = "helpdesk-360/PINDOLES/validacio-de-models.md" },
+      { "Sistemes experts i RAG" = "helpdesk-360/PINDOLES/sistemes-experts-i-rag.md" },
+      { "RAG i embeddings" = "helpdesk-360/PINDOLES/rag-i-embeddings.md" },
+      { "MongoDB i bases de dades vectorials" = "helpdesk-360/PINDOLES/mongodb-i-vector-db.md" },
+      { "Prompt engineering i guardrails" = "helpdesk-360/PINDOLES/prompt-engineering-i-guardrails.md" },
+      { "APIs REST" = "helpdesk-360/PINDOLES/apis-rest.md" },
+    ] },
+    { "Píndoles ampliades" = [
+      { "Índex de píndoles ampliades" = "helpdesk-360/PINDOLES_AMPLIADES/docs/index.md" },
+      { "Classificació de text" = "helpdesk-360/PINDOLES_AMPLIADES/docs/classificacio-text/index.md" },
+      { "RAG i embeddings" = "helpdesk-360/PINDOLES_AMPLIADES/docs/rag-i-embeddings/index.md" },
+      { "Prompt engineering i guardrails" = "helpdesk-360/PINDOLES_AMPLIADES/docs/prompt-engineering-i-guardrails/index.md" },
+      { "APIs REST" = "helpdesk-360/PINDOLES_AMPLIADES/docs/apis-rest/index.md" },
+    ] },
+    { "Glossari" = "helpdesk-360/glossari_terms.md" },
   ] },
-  { "Píndoles ampliades" = [
-    { "Índex i recorreguts" = "PINDOLES_AMPLIADES/docs/index.md" },
-    { "Python i entorns" = "PINDOLES_AMPLIADES/docs/python-i-entorns/index.md" },
-    { "Jupyter" = "PINDOLES_AMPLIADES/docs/jupyter-notebooks/index.md" },
-    { "Python per a dades" = "PINDOLES_AMPLIADES/docs/python-per-a-dades-i/index.md" },
-    { "EDA i qualitat" = "PINDOLES_AMPLIADES/docs/eda-i-qualitat-de-dades/index.md" },
-    { "Visualització" = "PINDOLES_AMPLIADES/docs/visualitzacio-amb-matplotlib-i-seaborn/index.md" },
-    { "Scikit-learn" = "PINDOLES_AMPLIADES/docs/scikit-learn-intro/index.md" },
-    { "Validació de models" = "PINDOLES_AMPLIADES/docs/validacio-de-models/index.md" },
-    { "Clustering" = "PINDOLES_AMPLIADES/docs/clustering-i-segmentacio/index.md" },
-    { "SHAP i LIME" = "PINDOLES_AMPLIADES/docs/xai-shap-lime/index.md" },
-    { "Power BI" = "PINDOLES_AMPLIADES/docs/dashboards-i-powerbi/index.md" },
-    { "MLflow" = "PINDOLES_AMPLIADES/docs/mlflow-intro/index.md" },
-  ] },
-   { "Glossari" = "glossari_terms.md" },
- ]
+]
 
 [project.theme]
 language = "ca"

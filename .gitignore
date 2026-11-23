@@ -5,3 +5,4 @@
 /.venv-site/
 /__pycache__/
 .vscode/settings.json
+zensical_vell.toml

@@ -1,6 +1,6 @@
 # Notebooks de BiciTierra Market
 
-El [document de treball](../../index.md) determina què cal fer cada setmana.
+El [document de treball](../../document_de_treball.md) determina què cal fer cada setmana.
 
 - `01_eda.ipynb`: setmana 1; revisió de qualitat en setmana 2.
 - `02_modelatge_baseline.ipynb`: apartats 1–2 en setmana 2; apartats 3–4 en setmana 3; apartats 5–6 en setmana 5.
