@@ -20,6 +20,7 @@ En el projecte Helpdesk apareixen quatre maneres de fer que una màquina "sàpig
 Un sistema basat en regles pren decisions amb condicions explícites del tipus **si passa A, llavors fes B**. Pot ser tan simple com uns quants `if` en Python.
 
 Característiques:
+
 - És determinista: la mateixa entrada dona sempre la mateixa eixida.
 - És fàcil de llegir, provar i depurar.
 - No aprén de les dades. Només canvia quan algú modifica les regles.
@@ -34,6 +35,7 @@ Límits: els textos reals són variats ("no em deixa entrar", "user blocked", "i
 Un sistema expert és un tipus de sistema basat en regles amb una arquitectura més formal, pensat per a reproduir el raonament d'una persona experta en un domini concret. Els exemples històrics més coneguts són de les dècades de 1970 i 1980, com MYCIN, orientat al diagnòstic mèdic.
 
 Les peces habituals són:
+
 1. **Base de coneixement:** les regles del domini, escrites per experts.
 2. **Memòria de treball:** els fets del cas que s'està resolent.
 3. **Motor d'inferència:** busca les regles aplicables i les encadena per a arribar a conclusions.
@@ -42,10 +44,12 @@ Les peces habituals són:
 La diferència amb un conjunt de `if` és que el coneixement està **separat del programa que l'executa**, es pot **encadenar** (una regla produïx un fet que activa una altra) i el sistema pot **justificar** la decisió.
 
 Exemple:
+
 - Si intents_fallits >= 5, llavors compte_bloquejat.
 - Si compte_bloquejat i usuari_verificat, llavors desbloquejar.
 
 Quan és adequat: decisions exactes, estables i auditables, com prioritats, bloquejos, validacions o derivacions.
+
 Quan no: quan l'entrada és text lliure i el coneixement és extens o canvia sovint, perquè mantindre les regles té un cost alt.
 
 Relació entre ambdós: tot sistema expert clàssic es basa en regles, però no tot sistema de regles és un sistema expert.
@@ -55,6 +59,7 @@ Relació entre ambdós: tot sistema expert clàssic es basa en regles, però no 
 Un LLM (*Large Language Model*) és un model de llenguatge entrenat amb grans quantitats de text per a predir quin fragment de text és més probable a continuació. Això li permet entendre instruccions, resumir, traduir, redactar i respondre preguntes en llenguatge natural.
 
 Conceptes bàsics:
+
 - **Prompt:** el text d'entrada, amb instruccions i context.
 - **Token:** unitat en què el model divideix el text.
 - **Finestra de context:** quantitat màxima de text que el model pot considerar en una consulta.
@@ -63,6 +68,7 @@ Conceptes bàsics:
 Punts forts: entén variants de llenguatge i redacta respostes naturals sense escriure regles.
 
 Límits que cal conéixer:
+
 - Pot generar respostes plausibles però falses (**al·lucinacions**).
 - No coneix els documents interns d'una empresa, ni informació posterior al seu entrenament, llevat que se li proporcionen.
 - Pot variar la resposta entre execucions.
@@ -76,6 +82,7 @@ Un LLM sol no és un sistema de coneixement de l'empresa: és una capacitat de l
 RAG (*Retrieval-Augmented Generation*) combina recuperació d'informació i generació. En lloc de confiar en el que el LLM "recorda", se li donen en cada consulta els fragments de documents que s'han trobat com a rellevants.
 
 Flux:
+
 1. **Preparació:** es reuneix el corpus, es divideix en fragments i es guarden amb metadades (document, fragment, versió).
 2. **Indexació:** es calculen representacions dels fragments. Amb *embeddings*, els textos amb significat semblant queden propers en un espai numèric.
 3. **Recuperació:** la pregunta es representa de la mateixa manera i es busquen els fragments més pròxims.
@@ -85,6 +92,7 @@ Flux:
 Què aporta: respostes basades en documents propis, traçabilitat i actualització editant el corpus, sense reentrenar el model.
 
 Límits:
+
 - Si es recuperen fragments equivocats, la resposta es fonamentarà en context equivocat.
 - Una similitud alta no garantix que el fragment continga la resposta.
 - La qualitat depén de com s'ha fragmentat i preparat el corpus.
