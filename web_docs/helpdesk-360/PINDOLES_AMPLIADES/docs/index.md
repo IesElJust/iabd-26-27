@@ -4,6 +4,7 @@ Este recull desenvolupa el contingut nou respecte de BiciTierra. No cal repetir 
 
 | Ampliació | Què aporta respecte de P2 | Quan usar-la |
 |---|---|---|
+| [Comparativa sistemes experts vs regles, LLM i RAG](sistemes-experts/guia_regles_sistemes_experts_llm_rag.md) | Conceptes bàsics, alternatives dins del PLN | Setmana 1 |
 | [Classificació de text](classificacio-text/index.md) | Vocabulari, TF-IDF, text desconegut i diagnòstic multiclasse | Setmana 3 |
 | [RAG i embeddings](rag-i-embeddings/index.md) | Corpus, fragments, recuperació, embeddings i generació amb fonts | Setmanes 2 i 4 |
 | [APIs REST](apis-rest/index.md) | Contracte HTTP, validació, integració i proves d'entrada | Setmana 4 |
